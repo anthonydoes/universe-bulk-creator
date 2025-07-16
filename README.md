@@ -140,7 +140,6 @@ The tool automatically maps privacy settings between Airtable and Universe:
 | Airtable Value | Universe Result | Description |
 |---------------|----------------|-------------|
 | `PUBLIC` | `public` | Publicly visible and searchable |
-| `PRIVATE` | `unlisted` | Not publicly listed but accessible via direct link |
 | `UNLISTED` | `unlisted` | Not publicly listed but accessible via direct link |
 
 ## 🔍 Validation
@@ -201,11 +200,8 @@ universe-bulk-creator/
 ## 🔑 API Credentials
 
 ### Universe API
-1. Log into your Universe account
-2. Go to Settings > API
-3. Create a new API application
-4. Copy the Client ID and Client Secret
-5. Note your Host ID from your Universe URL
+1. Go to https://developers.universe.com/docs/introduction
+2. Follow steps to set up your OAuth application
 
 ### Airtable API
 1. Go to https://airtable.com/api
@@ -237,11 +233,6 @@ If you encounter issues:
 4. Review validation errors in the console output
 5. Check Universe API status at https://status.universe.com
 
-## 🙏 Acknowledgments
-
-- Built with [Universe.com API](https://www.universe.com/api)
-- Powered by [Airtable API](https://airtable.com/api)
-- Created with assistance from [Claude Code](https://claude.ai/code)
 
 ---
 
